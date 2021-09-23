@@ -4,12 +4,12 @@
     margin: 0;
 }
 
-
-/* Added color to body element */
+/* added color to body element */
 body {
-    background-color: cadetblue;
+    background-color: #aaafff;
 }
 
+/* added font, padding, background color, and text color to header class selector */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,12 +17,18 @@ body {
     color: #ffffff;
 }
 
+/* display class selector header with type selector h1 inline the container but with block properties, adjusting font size, and text color */
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    color: #ffffff;
+}
+
+.header h1 .seo {
     color: #d9dcd6;
 }
 
+/* added padding on top, margin to the right, reversed the flow from right to left, added font, and adjusted font size for header class selector --> div type selector */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,42 +37,51 @@ body {
     font-size: 20px;
 }
 
+/* removed the list style type under the ul div type selectors for the header class selector */
 .header div ul {
     list-style-type: none;
 }
 
+/* made the display inline block and add size to the left side of the margin  */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* added text color and removed text style for the a type selector */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* added font size for the p type selector */
 p {
     font-size: 16px;
 }
 
+/* added a height, width, margin bottom, background size, and background position for the hero class selector*/
 .hero {
-    height: 1000px;
+    height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
+/* cause all items under this class to shift the flow from left to right and add margin left sizing */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* cause all items under this class to shift the flow from right to left and add margin left sizing */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* added bottom maring, padding, height, font, background color, text color to content class div type */
 .content div {
     margin-bottom: 20px;
     padding: 50px;
@@ -76,21 +91,25 @@ p {
     color: #ffffff;
 }
 
+/* Adjust img max-height */
 .content img {
     max-height: 200px;
 }
 
+/* adjust content h2 margin-bottom and font size */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* adjsut content class width display and left margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* adjust benefits class right margin, padding, clear both elements below, float right, width, height, font, background color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,22 +121,26 @@ p {
     background-color: #2589bd;
 }
 
+/* benefits div class bottom margin and color changes */
 .benefits div {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* benefits h3 bottom margin and text alignment changes */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* adjust image display and forces it to center within the container, then adjusts max width to 150px  */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* adjusted the padding, cleared both elements from the floating elements, adjusted font, and alinged text in the center  */
 .footer {
     padding: 30px;
     clear: both;
@@ -125,6 +148,7 @@ p {
     text-align: center;
 }
 
+/* changes to footer class heading font size */
 .footer h2 {
     font-size: 20px;
 }

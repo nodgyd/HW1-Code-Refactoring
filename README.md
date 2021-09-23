@@ -2,10 +2,10 @@
 
 ## Description
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-- THe motivation for this project was the clean up the code and make it for more generally accpeted practices. 
+- The motivation for this project was the clean up the code and follow good coding practices such as correct semantics for HTML and CSS selector restructuring. 
 - The purpose of this build was to expand knowledge on how to setup css and html elements correctly for the basic structure of a page.
 - There wasn't really a problem to solve when factoring this code more so just cleaning it up and ensuring it fits the standard required for good coding practics
-- What did you learn? I learned how to adjust different types of elements with the same code along with adding alt attributes to each image. Also understant the difference between   good and bad coding practices are. There are also multiple ways to add alt attributes to elements. This project really helped in solidfying my knowledge in containers and the parent-child connection. 
+- I learned how to adjust different types of elements with the same code along with adding alt attributes to each image. Also understant the difference between   good and bad coding practices are. There are also multiple ways to add alt attributes to elements. This project really helped in solidfying my knowledge in containers and the parent-child connection. 
 
 ## Table of Contents (Optional)
 If your README is long, add a table of contents to make it easy for users to find what they need.

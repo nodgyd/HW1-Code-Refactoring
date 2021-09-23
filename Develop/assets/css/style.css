@@ -3,12 +3,13 @@
     padding: 0;
     margin: 0;
 }
-
+/* Body Type Selector */
 /* added color to body element */
 body {
     background-color: #aaafff;
 }
 
+/* Header Type Selector */
 /* added font, padding, background color, and text color to header class selector */
 header {
     padding: 20px;
@@ -48,17 +49,20 @@ header div ul li {
     margin-left: 25px;
 }
 
+/* A Type Selector*/
 /* added text color and removed text style for the a type selector */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* P Type Selector */
 /* added font size for the p type selector */
 p {
     font-size: 16px;
 }
 
+/* Main Type Selector*/
 /* added a height, width, margin bottom, background size, and background position for the hero class selector*/
 main img {
     height: 800px;
@@ -69,6 +73,7 @@ main img {
     background-position: center;
 }
 
+/* Float Class Selector */
 /* cause all items under this class to shift the flow from left to right and add margin left sizing */
 .float-left {
     float: left;
@@ -81,6 +86,7 @@ main img {
     margin-left: 25px;
 }
 
+/* Section Type Selector */
 /* added bottom maring, padding, height, font, background color, text color to content class div type */
 section div {
     margin-bottom: 20px;
@@ -109,6 +115,7 @@ section {
     margin-left: 20px;
 }
 
+/* Aside Type Selector */
 /* adjust benefits class right margin, padding, clear both elements below, float right, width, height, font, background color */
 aside {
     margin-right: 20px;
@@ -140,6 +147,7 @@ aside img {
     max-width: 150px;
 }
 
+/* Footer Type Selector */
 /* adjusted the padding, cleared both elements from the floating elements, adjusted font, and alinged text in the center  */
 footer {
     padding: 30px;
